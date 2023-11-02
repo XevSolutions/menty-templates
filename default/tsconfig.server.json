@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "outDir": "build",
+        "esModuleInterop": true,
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
