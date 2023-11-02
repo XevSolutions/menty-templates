@@ -2,7 +2,7 @@ import express from 'express';
 import next from 'next';
 import dotenv from 'dotenv';
 
-dotenv.config();
+dotenv.config(); 
 
 const PORT = process.env.PORT || 3000;      
 const dev = process.env.NODE_ENV !== 'production';
